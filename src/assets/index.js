@@ -7,6 +7,7 @@ import SpikeConnect from "./SpikeConnect.png"
 import github from "./github.png"
 import insta from "./insta.png"
 import linkedin from "./linkedin.png"
+import CV from "./CV.pdf"
 
 export {
     logo,
@@ -18,4 +19,5 @@ export {
     github,
     insta,
     linkedin,
+    CV,
 };

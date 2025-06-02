@@ -56,13 +56,13 @@ export const projects = [
         title: "Blog Post",
         link: "https://github.com/DenkuKuro/Blog-Post",
         image: blog,
-        tech: "",
+        tech: "HTML/CSS, Javascript, Bootstrap, Node.js, Express.js, EJS, Axios, REST API",
     },
     {
         title: "SpikeConnect",
-        link: "https://github.com/rsg28/Spike-Connect?tab=readme-ov-file",
+        link: "https://github.com/rsg28/Spike-Connect",
         image: SpikeConnect,
-        tech: "",
+        tech: " Javascript, React Native, Python, HTML/CSS, Selenium, Beautiful Soup",
     },
     {
         title: "Manga Cover Generator",

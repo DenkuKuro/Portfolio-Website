@@ -1,6 +1,6 @@
 import Button from './Button';
 import styles from "../styles";
-
+import { CV } from "../assets";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className='py-4 flex gap-3'>
           <Button name="Contact Me" style="fade"/>
-          <Button name={`Resume`} style="fade bg-transparent border-2 border-red-700 text-red-500" />
+          <a target='_blank' rel="noopener noreferrer" href={CV}><Button name={`Resume`} style="fade bg-transparent border-2 border-red-700 text-red-500" /></a>
         </div>
       </div>
 
