@@ -1,4 +1,4 @@
-import { blog, SpikeConnect, insta, github, linkedin } from "../assets";
+import { blog, SpikeConnect, insta, github, linkedin, StressBurnout } from "../assets";
 
 export const navLinks = [
     {
@@ -65,9 +65,9 @@ export const projects = [
         tech: " Javascript, React Native, Python, HTML/CSS, Selenium, Beautiful Soup",
     },
     {
-        title: "Manga Cover Generator",
-        link: "",
-        image: "",
-        tech: "",
+        title: "Stress & Burnout Tracker",
+        link: "https://github.com/DenkuKuro/Mountain-Madness-Project",
+        image: StressBurnout,
+        tech: "HTML/CSS, Javascript, Python, API, Browser Extension",
     },
 ];

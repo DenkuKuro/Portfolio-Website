@@ -1,7 +1,7 @@
 import Card from "./Card";
 import Button from "./Button";
 import { projects } from "../constants";
-import { blog, SpikeConnect } from "../assets";
+import { blog, SpikeConnect, StressBurnout } from "../assets";
 import styles from "../styles";
 
 const Projects = () => {
