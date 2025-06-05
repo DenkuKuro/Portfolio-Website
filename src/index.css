@@ -49,3 +49,10 @@
     opacity: 1;
   }
 }
+
+.border-gradient {
+  border-image-slice: 1;
+}
+.border-gradient-red {
+  border-image-source: linear-gradient(to left, #be123c, #1e40af);
+}
