@@ -9,9 +9,9 @@ const Projects = () => {
     <section id='projects' className='my-8 w-full'>
       <div className=''>
         <h1 className='text-4xl'>Projects</h1>
-        <div className='w-full border-b-[0.5px] border-gradient border-gradient-red my-5'></div>
+        <div className='w-full border-b-[0.5px] border-gradient border-gradient-red my-2'></div>
       </div>
-      <div className='flex flex-row flex-wrap justify-between'>
+      <div className='flex flex-row flex-wrap justify-between my-10'>
         {projects.map((project) => (
           <Card title={project.title} link={project.link} image={project.image} tech={project.tech} key={project.title}/>
         ))}

@@ -71,3 +71,8 @@ export const projects = [
         tech: "HTML/CSS, Javascript, Python, API, Browser Extension",
     },
 ];
+
+export const skills = [
+    "HTML/CSS", "Javascript", "Node.js", "React", "Express JS", "Tailwind CSS", 
+    "Bootstrap", "Python", "C/C++", "Github", "Git", "Bash"
+];
