@@ -10,6 +10,19 @@ import linkedin from "./linkedin.png";
 import CV from "./Javier Deng CV.pdf";
 import selfie from "./selfie.jpg";
 import StressBurnout from "./stress-burnout.png";
+import python from "./python.svg";
+import javascript from "./javascript.svg";
+import cpp from "./c++.svg";
+import c from "./c.svg`";
+import nodejs from "./nodejs.svg";
+import bash  from "./bash.svg";
+import react from "./react.svg";
+import bootstrap from "./boostrap.svg";
+import html from "./HTML5_Badge.svg.png";
+import css from "./CSS3_logo.svg.png";
+import tailwind from "./Tailwind_CSS_Logo.svg.png";
+import jquery from "./jquery.svg";
+import express from "./express-js.png;"
 
 export {
     logo,
@@ -24,4 +37,17 @@ export {
     CV,
     selfie,
     StressBurnout,
+    python,
+    javascript,
+    cpp,
+    c,
+    nodejs,
+    react,
+    bash,
+    bootstrap,
+    html,
+    css,
+    jquery,
+    tailwind,
+    express,
 };

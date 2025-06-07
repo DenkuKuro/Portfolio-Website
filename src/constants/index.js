@@ -1,4 +1,18 @@
-import { blog, SpikeConnect, insta, github, linkedin, StressBurnout } from "../assets";
+import { blog, SpikeConnect, insta, github, linkedin, StressBurnout,
+    python,
+    javascript,
+    cpp,
+    c,
+    nodejs,
+    react,
+    bootstrap,
+    html,
+    css,
+    jquery,
+    tailwind,
+    express,  
+ } from "../assets";
+
 
 export const navLinks = [
     {
@@ -73,6 +87,76 @@ export const projects = [
 ];
 
 export const skills = [
-    "HTML/CSS", "Javascript", "Node.js", "React", "Express JS", "Tailwind CSS", 
-    "Bootstrap", "Python", "C/C++", "Github", "Git", "Bash"
+    "HTML", "CSS", "Javascript", "Node.js", "React", "Express JS", "Tailwind CSS", 
+    "Bootstrap", "Python", "C", "C++", "Github", "Git", "Bash"
 ];
+
+export const skillsIcon = [
+    {
+        tech: "HTML",
+        icon: html,
+        alt: "html icon"
+    },
+    {
+        tech: "CSS",
+        icon: css,
+        alt: "css icon"
+    },
+    {
+        tech: "Javascript",
+        icon: javascript,
+        alt: "javacript icon"
+    },
+    {
+        tech: "Node.js",
+        icon: nodejs,
+        alt: "node js icon"
+    },
+    
+    {
+        tech: "React",
+        icon: react,
+        alt: "react icon"
+    },
+    
+    {
+        tech: "Express JS",
+        icon: express,
+        alt: "express js icon"
+    },
+    
+    {
+        tech: "Tailwind CSS",
+        icon: tailwind,
+        alt: "tailwind css icon"
+    },
+    
+    {
+        tech: "Bootstrap",
+        icon: bootstrap,
+        alt: "bootstrap icon"
+    },
+    
+    {
+        tech: "Python",
+        icon: python,
+        alt: "python icon"
+    },
+    
+    {
+        tech: "C",
+        icon: c,
+        alt: "c icon"
+    },
+    
+    {
+        tech: "C++",
+        icon: cpp,
+        alt: "c++ icon"
+    },
+    {
+        tech: "JQuery",
+        icon: jquery,
+        alt: "jquery icon"
+    }
+]
