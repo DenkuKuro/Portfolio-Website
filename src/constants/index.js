@@ -70,7 +70,7 @@ export const projects = [
         title: "Blog Post",
         link: "https://github.com/DenkuKuro/Blog-Post",
         image: blog,
-        tech: "HTML/CSS, Javascript, Bootstrap, Node.js, Express.js, EJS, Axios, REST API",
+        tech: "HTML/CSS, Javascript, Bootstrap, Node.js, Express.js, JQuery, Axios, REST API",
     },
     {
         title: "SpikeConnect",
