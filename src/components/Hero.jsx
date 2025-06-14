@@ -24,7 +24,7 @@ const Hero = () => {
       <div className={`flex-1 flex relative ${styles.flexCenter}`}>
         <div className='absolute z-[0] w-[150%] h-[80%] top-0 right-0 red__gradient'/>
       </div>
-
+       {/* This gradientb was adapted from [https://www.youtube.com/watch?v=_oO4Qi5aVZs&t=4391s] */}
     </section>
   )
 };

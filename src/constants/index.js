@@ -28,9 +28,13 @@ export const navLinks = [
         title: "Projects",
     },
     {
+        id: "experience",
+        title: "Experience"
+    },
+    {
         id: "contact",
         title: "Contact",
-    }
+    },
 ];
 
 
@@ -160,3 +164,12 @@ export const skillsIcon = [
         alt: "jquery icon"
     }
 ]
+
+export const experience = [
+    {
+        title: "",
+        description: "",
+        date: "",
+        location: "",
+    },
+];

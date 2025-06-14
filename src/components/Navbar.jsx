@@ -32,6 +32,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    // This navbar was adapted from [https://www.youtube.com/watch?v=_oO4Qi5aVZs&t=4391s]
   )
 };
 
