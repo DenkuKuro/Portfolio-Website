@@ -183,7 +183,7 @@ export const experience = [
         description: [
             "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
             "Participated in a 12-hour hackathon, competing against multiple teams.",
-            "",
+            "Worked under time constraints to design, develop, and pitch an innovative project.",
         ],
         date: "Mar. 15, 2025 – Mar. 15 2025",
         location: "Surrey, BC",
