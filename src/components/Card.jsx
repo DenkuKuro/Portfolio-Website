@@ -24,7 +24,7 @@ const Card = ({ title, link, image, tech }) => {
 
             </div>
         </div>        
-        
+        // Link to card component [https://uiverse.io/mvykool/honest-shrimp-87]
   )
 };
 
