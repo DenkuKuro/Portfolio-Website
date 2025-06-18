@@ -13,7 +13,7 @@ const Skills = () => {
       <h2 className='text-xl mt-7'>
         Here are some of the techonologies I am familiar with:
       </h2>
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap justify-center'>
         {skillsIcon.map((skill) => (
           <TechDisplay tech={skill.tech} icon={skill.icon} alt={skill.alt} />
         ))}
