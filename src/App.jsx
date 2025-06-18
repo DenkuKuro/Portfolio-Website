@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./styles"
 import { Navbar, Hero, About, Skills, Projects, Contact, Footer } from "./components";
+import Experience from "./components/Experience";
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
           <Hero />
           <About/>
           <Skills/>
+          <Experience/>
           <Projects/>
           <Footer/>
         </div>
