@@ -18,7 +18,7 @@ const About = () => {
           <div className='ml-30'>
             <img src={selfie} alt="selfie of me" className='h-96'/>
           </div>
-          <div className='mx-32 py-10'>
+          <div className='ml-32 py-10'>
             <p className='text-xl max-w-2xl break-words'>
               I am a second-year Simon Fraser Student studying Computer Science aspiring to be a Software Engineer! 
               I have worked on several web app projects focusing on Full-Stack applications. I’m always interested in learning new technologies 

@@ -167,9 +167,26 @@ export const skillsIcon = [
 
 export const experience = [
     {
-        title: "",
-        description: "",
-        date: "",
-        location: "",
+        title: "Project Team Member, Web Design Marketing (WEA) ",
+        description: [
+            "Designed and developed two engaging landing pages using Figma, enhancing user experience and visual design.",
+            "Demonstrated strong communication skills by effectively conveying ideas, fostering collaboration, and ensuring clarity in both verbal and written exchanges with team members and clients.",
+            "Conducted thorough keyword research to identify relevant search terms and trends for your industry, and analyze competitors’ websites to understand their strategies, strengths, and gaps, which can inform your own SEO and content development.",
+
+        ],
+        date: "May 24, 2024 – Aug. 20, 2024",
+        location: "Waterloo, ON",
+        company: "University of Waterloo",
     },
+    {
+        title: "Dreamhacks Hackathon - SystemHacks 2025",
+        description: [
+            "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
+            "Participated in a 12-hour hackathon, competing against multiple teams.",
+            "Worked under time constraints to design, develop, and pitch an innovative project.",
+        ],
+        date: "Mar. 15, 2025 – Mar. 15 2025",
+        location: "Surrey, BC",
+        company: "SystemHacks",
+    }
 ];
