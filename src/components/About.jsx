@@ -20,13 +20,14 @@ const About = () => {
           </div>
           <div className='ml-32 py-10'>
             <p className='text-xl max-w-2xl break-words'>
-              I am a second-year Simon Fraser Student studying Computer Science aspiring to be a Software Engineer! 
-              I have worked on several web app projects focusing on Full-Stack applications. I’m always interested in learning new technologies 
-              and like to work on my foundations to improve little by little. I love playing volleyball and I’m really interested
-              in embedded software engineering in the future.
+              I am a second-year Computer Science student at Simon Fraser University,
+               aspiring to become a Software Engineer. I have worked on several web application projects,
+                focusing on full-stack development. I’m always eager to learn new technologies and
+                 continuously work on strengthening my foundations. I enjoy playing volleyball
+                  and have a strong interest in embedded software engineering for the future.
             </p>
             <p className='text-xl mt-7'>
-              Here is my Resume if you are interested in checking it:
+              Here is my résumé if you’re interested in checking it out:
             </p>
             <Button link={CV} name={"CV"} style={"px-8"} />
           </div>
