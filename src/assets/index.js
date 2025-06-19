@@ -23,6 +23,7 @@ import css from "./CSS3_logo.svg.png";
 import tailwind from "./tailwind-logo.png";
 import jquery from "./jquery-logo.png";
 import express from "./express-js.png";
+import contact_pic from "./contact-pic.png";
 
 export {
     logo,
@@ -50,4 +51,5 @@ export {
     jquery,
     tailwind,
     express,
+    contact_pic,
 };
