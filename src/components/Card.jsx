@@ -8,7 +8,7 @@ const Card = ({ title, link, image, tech }) => {
   return (
         
         <div
-        className="transform transition duration-300 hover:scale-110 rounded-lg shadow-lg h-71 w-96 hover:shadow-xl bg-gray-800 p-5"
+        className="transform transition duration-300 hover:scale-110 rounded-lg shadow-lg h-71 w-96 hover:shadow-xl bg-slate-900 p-5"
         > 
             <img src={image} alt={title} className="h-40 w-full object-cover rounded-lg"/>
             <div className="pt-2 flex flex-col">
