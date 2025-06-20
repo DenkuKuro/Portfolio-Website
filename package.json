@@ -1,7 +1,7 @@
 {
-  "host": "https://DenkuKuro.github.io/Portfolio-Website",
+  "host": "https://denkukuro.github.io/Portfolio-Website",
   "name": "portfolio-website",
-  "homepage": "https://DenkuKuro.github.io/Portfolio-Website/",
+  "homepage": "https://denkukuro.github.io/Portfolio-Website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
