@@ -24,6 +24,7 @@ import tailwind from "./tailwind-logo.png";
 import jquery from "./jquery-logo.png";
 import express from "./express-js.png";
 import contact_pic from "./contact-pic.png";
+import easyChart from "./easychart.png";
 
 export {
     logo,
@@ -52,4 +53,5 @@ export {
     tailwind,
     express,
     contact_pic,
+    easyChart,
 };
