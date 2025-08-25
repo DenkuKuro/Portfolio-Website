@@ -11,6 +11,7 @@ import { blog, SpikeConnect, insta, github, linkedin, StressBurnout,
     jquery,
     tailwind,
     express,  
+    easyChart,
  } from "../assets";
 
 
@@ -83,10 +84,10 @@ export const projects = [
         tech: " Javascript, React Native, Python, HTML/CSS, Selenium, Beautiful Soup",
     },
     {
-        title: "Stress & Burnout Tracker",
-        link: "https://github.com/DenkuKuro/Mountain-Madness-Project",
-        image: StressBurnout,
-        tech: "HTML/CSS, Javascript, Python, API, Browser Extension",
+        title: "EasyChart",
+        link: "https://github.com/CMPT-276-SUMMER-2025/final-project-5-lakes",
+        image: easyChart,
+        tech: "React JS, Javascript, Tailwind CSS, Node.js, Express.js, API, DeepSeek API",
     },
 ];
 
