@@ -25,6 +25,7 @@ import jquery from "./jquery-logo.png";
 import express from "./express-js.png";
 import contact_pic from "./contact-pic.png";
 import easyChart from "./easychart.png";
+import docker from "./docker.png";
 
 export {
     logo,
@@ -54,4 +55,5 @@ export {
     express,
     contact_pic,
     easyChart,
+    docker,
 };

@@ -12,6 +12,7 @@ import { blog, SpikeConnect, insta, github, linkedin, StressBurnout,
     tailwind,
     express,  
     easyChart,
+    docker,
  } from "../assets";
 
 
@@ -163,6 +164,11 @@ export const skillsIcon = [
         tech: "JQuery",
         icon: jquery,
         alt: "jquery icon"
+    },
+    {
+        tech: "Docker",
+        icon: docker,
+        alt: "docker icon"
     }
 ]
 
