@@ -56,3 +56,67 @@
 .border-gradient-red {
   border-image-source: linear-gradient(to left, #be123c, #1e40af);
 }
+
+/* Gradient Animation for Name */
+.animate-fadeGradient {
+  animation: fadeGradient 3s ease-in-out infinite;
+}
+
+@keyframes fadeGradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Typing Animation */
+.animate-typing {
+  animation: typing 4s steps(40, end) 2s, blink-caret 0.75s step-end infinite 2s;
+  border-right: 2px solid transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #d1d5db;
+  }
+}
+
+/* Fade In Animation */
+.animate-fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
