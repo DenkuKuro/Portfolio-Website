@@ -41,15 +41,6 @@
   animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .border-gradient {
   border-image-slice: 1;
 }
@@ -59,7 +50,8 @@
 
 /* Gradient Animation for Name */
 .animate-fadeGradient {
-  animation: fadeGradient 3s ease-in-out infinite;
+  animation: 
+  fadeInHero 2s ease-in-out,
 }
 
 @keyframes fadeGradient {
@@ -107,10 +99,10 @@
 
 /* Fade In Animation */
 .animate-fade-in {
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeInHero 2s ease-in-out;
 }
 
-@keyframes fadeIn {
+@keyframes fadeInHero {
   from {
     opacity: 0;
     transform: translateY(20px);

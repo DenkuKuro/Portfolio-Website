@@ -19,7 +19,7 @@ const Hero = () => {
             </h1>
             
             {/* Animated Typing Effect */}
-            <div className='max-w-4xl mx-auto'>
+            <div className='inline-block'>
               <p className='text-lg md:text-xl text-gray-300'>
                 <span className='animate-typing'>
                   Aspiring software engineer and student at Simon Fraser University majoring in Computer Science.
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className='flex flex-col sm:flex-row gap-4 justify-center items-center pt-8'>
+          <div className='flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-fade-in'>
             <Button 
               name="Contact Me" 
               style="px-8 py-4 bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-600 hover:to-orange-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-lg" 
@@ -41,12 +41,6 @@ const Hero = () => {
             />
           </div>
 
-          {/* Scroll Indicator */}
-          <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce'>
-            <div className='w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center'>
-              <div className='w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse'></div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
