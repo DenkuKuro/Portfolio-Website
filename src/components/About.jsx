@@ -55,7 +55,7 @@ const About = () => {
               
               <div className='space-y-4 text-gray-300 text-lg leading-relaxed'>
                 <p className='bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700/50 hover:border-rose-500/30 transition-all duration-300'>
-                  I am a second-year Computer Science student at <span className='text-rose-400 font-semibold'>Simon Fraser University</span>, 
+                  I am a third-year Computer Science student at <span className='text-rose-400 font-semibold'>Simon Fraser University</span>, 
                   aspiring to become a Software Engineer. I have worked on several web application projects, 
                   focusing on full-stack development.
                 </p>

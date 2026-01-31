@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import { blog, SpikeConnect, insta, github, linkedin, StressBurnout,
     python,
     javascript,
@@ -174,6 +175,17 @@ export const skillsIcon = [
 
 export const experience = [
     {
+        title: "Software Developer, SFU Robot Soccer Club",
+        description: [
+            "Developed core software systems to support the robots behavior with C++",
+            "Integrated RVO1/ORCA collision avoidance into the path-planning stack to reduce inter-robot collisions (ally/enemy).",
+            "Built and executed unit/integration tests validating RVO integration and velocity outputs to prevent collisions."
+        ],
+        date: "September 2024 - Present",
+        location: "Burnaby, BC",
+        company: "SFU Robot Soccer Club",
+    },
+    {
         title: "Project Team Member, Web Design Marketing (WEA) ",
         description: [
             "Designed and developed two engaging landing pages using Figma, enhancing user experience and visual design.",
@@ -181,7 +193,7 @@ export const experience = [
             "Conducted thorough keyword research to identify relevant search terms and trends for your industry, and analyze competitors’ websites to understand their strategies, strengths, and gaps, which can inform your own SEO and content development.",
 
         ],
-        date: "May 24, 2024 – Aug. 20, 2024",
+        date: "May, 2024 – August, 2024",
         location: "Waterloo, ON",
         company: "University of Waterloo",
     },
@@ -192,8 +204,8 @@ export const experience = [
             "Participated in a 12-hour hackathon, competing against multiple teams.",
             "Worked under time constraints to design, develop, and pitch an innovative project.",
         ],
-        date: "Mar. 15, 2025 – Mar. 15 2025",
+        date: "March, 2025 – March 2025",
         location: "Surrey, BC",
         company: "SystemHacks",
-    }
+    },
 ];
