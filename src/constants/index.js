@@ -186,6 +186,27 @@ export const experience = [
         company: "SFU Robot Soccer Club",
     },
     {
+        title: "Dreamhacks Hackathon - SystemHacks 2025",
+        description: [
+            "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
+            "Participated in a 12-hour hackathon, competing against multiple teams.",
+            "Worked under time constraints to design, develop, and pitch an innovative project.",
+        ],
+        date: "March, 2025 – March 2025",
+        location: "Surrey, BC",
+        company: "Software Systems Student Society",
+    },
+    {
+        title: "Stormhacks Hackathon - StormHacks 2025",
+        description: [
+            "Achieved the \"Safe Software Best Modern C++\" award competing against 200+ teams at Western Canada's largest Hackathon event.",
+            "Integrated an AI terminal assistant during a 24-hour hackathon, applying C++ best practices to deliver a command-line experience accessible to both beginner and advanced users."
+        ],
+        date: "October, 2025 – October 2025",
+        location: "Surrey, BC",
+        company: "SFU Surge",
+    },
+    {
         title: "Project Team Member, Web Design Marketing (WEA) ",
         description: [
             "Designed and developed two engaging landing pages using Figma, enhancing user experience and visual design.",
@@ -196,16 +217,5 @@ export const experience = [
         date: "May, 2024 – August, 2024",
         location: "Waterloo, ON",
         company: "University of Waterloo",
-    },
-    {
-        title: "Dreamhacks Hackathon - SystemHacks 2025",
-        description: [
-            "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
-            "Participated in a 12-hour hackathon, competing against multiple teams.",
-            "Worked under time constraints to design, develop, and pitch an innovative project.",
-        ],
-        date: "March, 2025 – March 2025",
-        location: "Surrey, BC",
-        company: "SystemHacks",
     },
 ];
