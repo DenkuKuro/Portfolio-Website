@@ -4,7 +4,7 @@ import {CV} from "../assets";
 
 const Hero = () => {
   return (
-    <section id='home' className='min-h-screen w-full relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 flex items-center'>
+    <section id='home' className='min-h-screen w-full relative overflow-hidden py-10 px-4 sm:px-6 lg:px-8 flex items-center'>
       <div className='relative z-10 max-w-7xl mx-auto w-full'>
         <div className='text-center space-y-8'>
           {/* Greeting */}
@@ -31,8 +31,9 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className='flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 animate-fade-in'>
             <Button 
-              name="Contact Me" 
-              style="px-8 py-4 bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-600 hover:to-orange-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-lg" 
+                name="Contact Me" 
+                style="px-8 py-4 bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-600 hover:to-orange-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 text-lg" 
+                link={'#contact'}
             />
             <Button 
               name="View Resume" 

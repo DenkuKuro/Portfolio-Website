@@ -175,26 +175,30 @@ export const skillsIcon = [
 
 export const experience = [
     {
-        title: "Software Developer, SFU Robot Soccer Club",
+        title: "Software Developer - Blueprint",
         description: [
-            "Developed core software systems to support the robots behavior with C++",
-            "Integrated RVO1/ORCA collision avoidance into the path-planning stack to reduce inter-robot collisions (ally/enemy).",
-            "Built and executed unit/integration tests validating RVO integration and velocity outputs to prevent collisions."
+            `Architected dynamic web interfaces with React, maintaining 100% state synchronization across complex user
+             workflows by leveraging optimized Hooks (useState, useEffect) for seamless data integration.`,
+            `Developed Full Stack applications using React Hooks and Node.js, achieving a 30% reduction in response latency
+             by implementing asynchronous Express middleware to handle concurrent API traffic`,
         ],
-        date: "September 2024 - Present",
+        date: "Feburary 2026 - Present",
         location: "Burnaby, BC",
-        company: "SFU Robot Soccer Club",
+        company: "Blueprint",
     },
     {
-        title: "Dreamhacks Hackathon - SystemHacks 2025",
+        title: "Software Developer - SFU Robot Soccer Club",
         description: [
-            "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
-            "Participated in a 12-hour hackathon, competing against multiple teams.",
-            "Worked under time constraints to design, develop, and pitch an innovative project.",
+            `Developed a C++/Qt path-planning component using RVO2 (ORCA), including a coordinator layer for
+             agent/obstacle management, timestep simulation, and signal-driven velocity updates.`,
+            `Integrated RVO2/ORCA collision avoidance into the path-planning stack to reduce by 53% inter-robot
+             collisions (ally/enemy).`,
+            `Collaborated cross-functionally with 5+ team leads in weekly design reviews, delivering 15+ feature tickets on
+             schedule through Agile workflows managed via Jira and GitLab`
         ],
-        date: "March, 2025 – March 2025",
-        location: "Surrey, BC",
-        company: "Software Systems Student Society",
+        date: "September 2025 - Present",
+        location: "Burnaby, BC",
+        company: "SFU Robot Soccer Club",
     },
     {
         title: "Stormhacks Hackathon - StormHacks 2025",
@@ -207,15 +211,14 @@ export const experience = [
         company: "SFU Surge",
     },
     {
-        title: "Project Team Member, Web Design Marketing (WEA) ",
+        title: "Dreamhacks Hackathon - SystemHacks 2025",
         description: [
-            "Designed and developed two engaging landing pages using Figma, enhancing user experience and visual design.",
-            "Demonstrated strong communication skills by effectively conveying ideas, fostering collaboration, and ensuring clarity in both verbal and written exchanges with team members and clients.",
-            "Conducted thorough keyword research to identify relevant search terms and trends for your industry, and analyze competitors’ websites to understand their strategies, strengths, and gaps, which can inform your own SEO and content development.",
-
+            "Received the ”Project with Most Potential” award, recognizing its innovation and future scalability",
+            "Participated in a 12-hour hackathon, competing against multiple teams.",
+            "Worked under time constraints to design, develop, and pitch an innovative project.",
         ],
-        date: "May, 2024 – August, 2024",
-        location: "Waterloo, ON",
-        company: "University of Waterloo",
+        date: "March, 2025 – March 2025",
+        location: "Surrey, BC",
+        company: "Software Systems Student Society",
     },
 ];

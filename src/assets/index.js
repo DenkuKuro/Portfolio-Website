@@ -7,7 +7,7 @@ import SpikeConnect from "./SpikeConnect.png";
 import github from "./github.png";
 import insta from "./insta.png";
 import linkedin from "./linkedin.png";
-import CV from "./Javier Deng CV.pdf";
+import CV from "./JavierResume.pdf";
 import selfie from "./selfie.jpg";
 import StressBurnout from "./stress-burnout.png";
 import python from "./python.svg";
