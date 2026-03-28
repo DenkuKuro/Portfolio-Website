@@ -3,6 +3,7 @@ import Button from "./Button";
 import { projects } from "../constants";
 import { blog, SpikeConnect, StressBurnout } from "../assets";
 import styles from "../styles";
+import Carousel from "./Carousel";
 
 const Projects = () => {
   return (
@@ -17,16 +18,18 @@ const Projects = () => {
             <div className='h-1 w-24 bg-gradient-to-r from-rose-500 to-orange-500 mx-auto rounded-full'></div>
           </div>
           <p className='text-gray-400 text-lg mt-6 max-w-2xl mx-auto'>
-            Here are some of my recent projects and contributions
+            Here are some of my recent projects
           </p>
         </div>
 
+        <Carousel/>
+
         {/* Projects Grid */}
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center'>
+        {/* <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center'>
           {projects.map((project) => (
             <Card title={project.title} link={project.link} image={project.image} tech={project.tech} key={project.title}/>
           ))}
-        </div>
+        </div> */}
 
         {/* Call to Action */}
         <div className='mt-16 text-center'>

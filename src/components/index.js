@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Button from "./Button";
 import Card from "./Card";
+import Carousel from "./Carousel";
 
 export {
     Navbar,
@@ -18,5 +19,6 @@ export {
     Projects,
     Button,
     Card,
+    Carousel,
 };
 
