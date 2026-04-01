@@ -22,7 +22,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <Carousel/>
+        <Carousel />
 
         {/* Projects Grid */}
         {/* <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center'>
