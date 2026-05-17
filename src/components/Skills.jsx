@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles'
 import { skills, skillsIcon } from '../constants'
-import TechDisplay from './techDisplay'
+import TechDisplay from './TechDisplay'
 
 const Skills = () => {
   return (
